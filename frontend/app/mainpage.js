@@ -5,10 +5,6 @@ import { useEffect,useState } from "react";
 import { View,Text, TextInput,TouchableOpacity,Image } from "react-native";
 const MainPage =()=>{
     const [data,updateData]=useState([])
-    // useEffect(()=>{
-    //     axios.get('')
-
-    // })
     return(
     <View style={{backgroundColor:"#D9EDE8", height:"100%"}}>
         <View style={{display:"flex",flexDirection:"row" , justifyContent:"center"}} >
